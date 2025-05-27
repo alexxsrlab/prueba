@@ -17,11 +17,33 @@ public class Estudiante {
         return nombre;
     }
 
-    public List<MateriaCursada> getMaterias() {
-        return materias;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
     }
 
     public Carrera getCarrera() {
         return carrera;
     }
+
+    public void setCarrera(Carrera carrera) {
+        this.carrera = carrera;
+    }
+
+    public List<MateriaCursada> getMaterias() {
+        return materias;
+    }
+
+    public void setMaterias(List<MateriaCursada> materias) {
+        this.materias = materias;
+    }
+
+    
 }
